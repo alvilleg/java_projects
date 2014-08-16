@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Document   : ImportValidate2.xml
+Created on : 2 de mayo de 2008, 07:15 PM
+Author     : Aldemar
+Description: Purpose of the document follows.
+-->
+<perseus:ImportData  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xmlns:perseus='http://xml.strategicdecision.net/schema/perseus/import'
+xsi:schemaLocation='http://xml.strategicdecision.net/schema/perseus/import ImportValidate.xsd'>
+    <perseus:CustomerData>
+        <perseus:Sites>
+            <perseus:Site isZone="false" name="LA CEJA" siteExternId="LACEJA" address="LA CEJA" country="Colombia" cityCode="05001" city="Cali" state="Antioquia"/>
+            <perseus:Customers>
+                <perseus:Customer documentId="830.032.160-9" documentType="NIT" name="EPM Gas"/>
+            </perseus:Customers>
+        </perseus:Sites>
+    </perseus:CustomerData>
+    <perseus:VehicleData>
+        <perseus:VehicleTypes>
+            <perseus:VehicleType vehicleTypeExternId="ST4" maxWeigthCapacity="3000" maxVolumeCapacity="3000" wareHouseHeight="1" wareHouseWide="1" wareHouseDepth="1" axesNumber="1" costByKm="1" hasBackDoor="N" hasLateralLeftDoor="N" hasLateralRightDoor="N" description="TRAILER ST-4"></perseus:VehicleType>
+        </perseus:VehicleTypes>
+        <perseus:Vehicles>
+            <perseus:Vehicle plate="VZI-040" vehicleTypeId="ST4"></perseus:Vehicle>
+            <perseus:Vehicle plate="VZI-041" vehicleTypeId="ST4"></perseus:Vehicle>
+        </perseus:Vehicles>
+        <perseus:AvailabilityVehicles>
+            <perseus:AvailabilityVehicle externalId="VZI-040_LUNES_0" vehicleId="VZI-040" availabilityDate="02-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_MARTES_1" vehicleId="VZI-040" availabilityDate="03-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_MIÉRCOLES_2" vehicleId="VZI-040" availabilityDate="04-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_JUEVES_3" vehicleId="VZI-040" availabilityDate="05-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_VIERNES_4" vehicleId="VZI-040" availabilityDate="06-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_SÁBADO_5" vehicleId="VZI-040" availabilityDate="07-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_DOMINGO_6" vehicleId="VZI-040" availabilityDate="08-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_LUNES_7" vehicleId="VZI-040" availabilityDate="09-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_MARTES_8" vehicleId="VZI-040" availabilityDate="10-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_MIÉRCOLES_9" vehicleId="VZI-040" availabilityDate="11-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_JUEVES_10" vehicleId="VZI-040" availabilityDate="12-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_VIERNES_11" vehicleId="VZI-040" availabilityDate="13-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_SÁBADO_12" vehicleId="VZI-040" availabilityDate="14-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-040_DOMINGO_13" vehicleId="VZI-040" availabilityDate="15-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_LUNES_14" vehicleId="VZI-041" availabilityDate="02-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_MARTES_15" vehicleId="VZI-041" availabilityDate="03-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_MIÉRCOLES_16" vehicleId="VZI-041" availabilityDate="04-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_JUEVES_17" vehicleId="VZI-041" availabilityDate="05-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_VIERNES_18" vehicleId="VZI-041" availabilityDate="06-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_SÁBADO_19" vehicleId="VZI-041" availabilityDate="07-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_DOMINGO_20" vehicleId="VZI-041" availabilityDate="08-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_LUNES_21" vehicleId="VZI-041" availabilityDate="09-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_MARTES_22" vehicleId="VZI-041" availabilityDate="10-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_MIÉRCOLES_23" vehicleId="VZI-041" availabilityDate="11-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_JUEVES_24" vehicleId="VZI-041" availabilityDate="12-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_VIERNES_25" vehicleId="VZI-041" availabilityDate="13-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_SÁBADO_26" vehicleId="VZI-041" availabilityDate="14-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+            <perseus:AvailabilityVehicle externalId="VZI-041_DOMINGO_27" vehicleId="VZI-041" availabilityDate="15-03-2009 00:00" initialSiteId="MADRE" finalSiteId="MADRE"  initialHour="08:00" finalHour="18:00"/>
+        </perseus:AvailabilityVehicles>
+    </perseus:VehicleData>
+    <perseus:ServiceRequests>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA0" description= "LA CEJA0" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA0"   code="LA CEJA0" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA0"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA0"  siteId="MADRE" earliestPickup="01-03-2009 06:00" latestPickup="02-03-2009 00:10" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA0"  siteId="LACEJA" earliestDelivery="01-03-2009 09:10" latestDelivery="02-03-2009 00:10" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA1" description= "LA CEJA1" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA1"   code="LA CEJA1" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA1"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA1"  siteId="MADRE" earliestPickup="01-03-2009 06:00" latestPickup="02-03-2009 03:19" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA1"  siteId="LACEJA" earliestDelivery="01-03-2009 12:20" latestDelivery="02-03-2009 03:19" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA2" description= "LA CEJA2" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA2"   code="LA CEJA2" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA2"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA2"  siteId="MADRE" earliestPickup="01-03-2009 06:00" latestPickup="02-03-2009 06:29" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA2"  siteId="LACEJA" earliestDelivery="01-03-2009 15:30" latestDelivery="02-03-2009 06:29" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA3" description= "LA CEJA3" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA3"   code="LA CEJA3" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA3"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA3"  siteId="MADRE" earliestPickup="01-03-2009 06:00" latestPickup="02-03-2009 09:39" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA3"  siteId="LACEJA" earliestDelivery="01-03-2009 18:40" latestDelivery="02-03-2009 09:39" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA4" description= "LA CEJA4" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA4"   code="LA CEJA4" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA4"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA4"  siteId="MADRE" earliestPickup="01-03-2009 06:00" latestPickup="02-03-2009 12:49" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA4"  siteId="LACEJA" earliestDelivery="01-03-2009 21:50" latestDelivery="02-03-2009 12:49" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA5" description= "LA CEJA5" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA5"   code="LA CEJA5" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA5"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA5"  siteId="MADRE" earliestPickup="01-03-2009 06:00" latestPickup="03-03-2009 11:58" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA5"  siteId="LACEJA" earliestDelivery="02-03-2009 21:00" latestDelivery="03-03-2009 11:58" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA6" description= "LA CEJA6" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA6"   code="LA CEJA6" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA6"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA6"  siteId="MADRE" earliestPickup="01-03-2009 07:15" latestPickup="03-03-2009 15:08" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA6"  siteId="LACEJA" earliestDelivery="03-03-2009 00:10" latestDelivery="03-03-2009 15:08" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA7" description= "LA CEJA7" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA7"   code="LA CEJA7" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA7"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA7"  siteId="MADRE" earliestPickup="01-03-2009 08:30" latestPickup="03-03-2009 18:18" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA7"  siteId="LACEJA" earliestDelivery="03-03-2009 03:20" latestDelivery="03-03-2009 18:18" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA8" description= "LA CEJA8" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA8"   code="LA CEJA8" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA8"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA8"  siteId="MADRE" earliestPickup="01-03-2009 09:45" latestPickup="03-03-2009 21:28" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA8"  siteId="LACEJA" earliestDelivery="03-03-2009 06:30" latestDelivery="03-03-2009 21:28" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA9" description= "LA CEJA9" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA9"   code="LA CEJA9" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA9"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA9"  siteId="MADRE" earliestPickup="01-03-2009 11:00" latestPickup="04-03-2009 00:37" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA9"  siteId="LACEJA" earliestDelivery="03-03-2009 09:40" latestDelivery="04-03-2009 00:37" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA10" description= "LA CEJA10" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA10"   code="LA CEJA10" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA10"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA10"  siteId="MADRE" earliestPickup="01-03-2009 12:15" latestPickup="04-03-2009 23:47" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA10"  siteId="LACEJA" earliestDelivery="04-03-2009 08:50" latestDelivery="04-03-2009 23:47" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA11" description= "LA CEJA11" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA11"   code="LA CEJA11" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA11"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA11"  siteId="MADRE" earliestPickup="01-03-2009 13:30" latestPickup="05-03-2009 02:57" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA11"  siteId="LACEJA" earliestDelivery="04-03-2009 12:00" latestDelivery="05-03-2009 02:57" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA12" description= "LA CEJA12" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA12"   code="LA CEJA12" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA12"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA12"  siteId="MADRE" earliestPickup="01-03-2009 14:45" latestPickup="05-03-2009 06:08" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA12"  siteId="LACEJA" earliestDelivery="04-03-2009 15:09" latestDelivery="05-03-2009 06:08" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA13" description= "LA CEJA13" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA13"   code="LA CEJA13" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA13"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA13"  siteId="MADRE" earliestPickup="01-03-2009 16:00" latestPickup="05-03-2009 09:18" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA13"  siteId="LACEJA" earliestDelivery="04-03-2009 18:19" latestDelivery="05-03-2009 09:18" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA14" description= "LA CEJA14" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA14"   code="LA CEJA14" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA14"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA14"  siteId="MADRE" earliestPickup="01-03-2009 17:15" latestPickup="05-03-2009 12:28" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA14"  siteId="LACEJA" earliestDelivery="04-03-2009 21:29" latestDelivery="05-03-2009 12:28" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA15" description= "LA CEJA15" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA15"   code="LA CEJA15" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA15"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA15"  siteId="MADRE" earliestPickup="01-03-2009 18:30" latestPickup="06-03-2009 11:38" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA15"  siteId="LACEJA" earliestDelivery="05-03-2009 20:39" latestDelivery="06-03-2009 11:38" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA16" description= "LA CEJA16" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA16"   code="LA CEJA16" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA16"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA16"  siteId="MADRE" earliestPickup="01-03-2009 19:45" latestPickup="06-03-2009 14:47" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA16"  siteId="LACEJA" earliestDelivery="05-03-2009 23:49" latestDelivery="06-03-2009 14:47" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA17" description= "LA CEJA17" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA17"   code="LA CEJA17" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA17"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA17"  siteId="MADRE" earliestPickup="01-03-2009 21:00" latestPickup="06-03-2009 17:57" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA17"  siteId="LACEJA" earliestDelivery="06-03-2009 02:59" latestDelivery="06-03-2009 17:57" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA18" description= "LA CEJA18" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA18"   code="LA CEJA18" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA18"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA18"  siteId="MADRE" earliestPickup="01-03-2009 22:15" latestPickup="06-03-2009 21:07" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA18"  siteId="LACEJA" earliestDelivery="06-03-2009 06:09" latestDelivery="06-03-2009 21:07" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA19" description= "LA CEJA19" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA19"   code="LA CEJA19" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA19"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA19"  siteId="MADRE" earliestPickup="01-03-2009 23:30" latestPickup="07-03-2009 00:17" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA19"  siteId="LACEJA" earliestDelivery="06-03-2009 09:19" latestDelivery="07-03-2009 00:17" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA20" description= "LA CEJA20" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA20"   code="LA CEJA20" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA20"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA20"  siteId="MADRE" earliestPickup="02-03-2009 00:45" latestPickup="07-03-2009 23:27" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA20"  siteId="LACEJA" earliestDelivery="07-03-2009 08:29" latestDelivery="07-03-2009 23:27" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA21" description= "LA CEJA21" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA21"   code="LA CEJA21" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA21"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA21"  siteId="MADRE" earliestPickup="02-03-2009 02:00" latestPickup="08-03-2009 02:36" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA21"  siteId="LACEJA" earliestDelivery="07-03-2009 11:39" latestDelivery="08-03-2009 02:36" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA22" description= "LA CEJA22" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA22"   code="LA CEJA22" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA22"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA22"  siteId="MADRE" earliestPickup="02-03-2009 03:15" latestPickup="08-03-2009 05:46" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA22"  siteId="LACEJA" earliestDelivery="07-03-2009 14:49" latestDelivery="08-03-2009 05:46" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA23" description= "LA CEJA23" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA23"   code="LA CEJA23" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA23"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA23"  siteId="MADRE" earliestPickup="02-03-2009 04:30" latestPickup="08-03-2009 08:56" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA23"  siteId="LACEJA" earliestDelivery="07-03-2009 17:59" latestDelivery="08-03-2009 08:56" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA24" description= "LA CEJA24" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA24"   code="LA CEJA24" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA24"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA24"  siteId="MADRE" earliestPickup="02-03-2009 05:45" latestPickup="08-03-2009 12:06" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA24"  siteId="LACEJA" earliestDelivery="07-03-2009 21:09" latestDelivery="08-03-2009 12:06" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA25" description= "LA CEJA25" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA25"   code="LA CEJA25" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA25"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA25"  siteId="MADRE" earliestPickup="02-03-2009 07:00" latestPickup="09-03-2009 11:17" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA25"  siteId="LACEJA" earliestDelivery="08-03-2009 20:18" latestDelivery="09-03-2009 11:17" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA26" description= "LA CEJA26" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA26"   code="LA CEJA26" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA26"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA26"  siteId="MADRE" earliestPickup="02-03-2009 08:15" latestPickup="09-03-2009 14:27" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA26"  siteId="LACEJA" earliestDelivery="08-03-2009 23:28" latestDelivery="09-03-2009 14:27" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA27" description= "LA CEJA27" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA27"   code="LA CEJA27" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA27"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA27"  siteId="MADRE" earliestPickup="02-03-2009 09:30" latestPickup="09-03-2009 17:37" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA27"  siteId="LACEJA" earliestDelivery="09-03-2009 02:38" latestDelivery="09-03-2009 17:37" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA28" description= "LA CEJA28" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA28"   code="LA CEJA28" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA28"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA28"  siteId="MADRE" earliestPickup="02-03-2009 10:45" latestPickup="09-03-2009 20:46" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA28"  siteId="LACEJA" earliestDelivery="09-03-2009 05:48" latestDelivery="09-03-2009 20:46" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA29" description= "LA CEJA29" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA29"   code="LA CEJA29" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA29"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA29"  siteId="MADRE" earliestPickup="02-03-2009 12:00" latestPickup="09-03-2009 23:56" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA29"  siteId="LACEJA" earliestDelivery="09-03-2009 08:58" latestDelivery="09-03-2009 23:56" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA30" description= "LA CEJA30" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA30"   code="LA CEJA30" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA30"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA30"  siteId="MADRE" earliestPickup="02-03-2009 13:15" latestPickup="10-03-2009 23:06" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA30"  siteId="LACEJA" earliestDelivery="10-03-2009 08:08" latestDelivery="10-03-2009 23:06" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA31" description= "LA CEJA31" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA31"   code="LA CEJA31" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA31"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA31"  siteId="MADRE" earliestPickup="02-03-2009 14:30" latestPickup="11-03-2009 02:16" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA31"  siteId="LACEJA" earliestDelivery="10-03-2009 11:18" latestDelivery="11-03-2009 02:16" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA32" description= "LA CEJA32" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA32"   code="LA CEJA32" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA32"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA32"  siteId="MADRE" earliestPickup="02-03-2009 15:45" latestPickup="11-03-2009 05:26" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA32"  siteId="LACEJA" earliestDelivery="10-03-2009 14:28" latestDelivery="11-03-2009 05:26" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA33" description= "LA CEJA33" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA33"   code="LA CEJA33" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA33"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA33"  siteId="MADRE" earliestPickup="02-03-2009 17:00" latestPickup="11-03-2009 08:36" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA33"  siteId="LACEJA" earliestDelivery="10-03-2009 17:38" latestDelivery="11-03-2009 08:36" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA34" description= "LA CEJA34" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA34"   code="LA CEJA34" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA34"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA34"  siteId="MADRE" earliestPickup="02-03-2009 18:15" latestPickup="11-03-2009 11:45" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA34"  siteId="LACEJA" earliestDelivery="10-03-2009 20:48" latestDelivery="11-03-2009 11:45" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA35" description= "LA CEJA35" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA35"   code="LA CEJA35" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA35"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA35"  siteId="MADRE" earliestPickup="02-03-2009 19:30" latestPickup="12-03-2009 10:55" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA35"  siteId="LACEJA" earliestDelivery="11-03-2009 19:58" latestDelivery="12-03-2009 10:55" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA36" description= "LA CEJA36" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA36"   code="LA CEJA36" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA36"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA36"  siteId="MADRE" earliestPickup="02-03-2009 20:45" latestPickup="12-03-2009 14:05" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA36"  siteId="LACEJA" earliestDelivery="11-03-2009 23:08" latestDelivery="12-03-2009 14:05" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA37" description= "LA CEJA37" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA37"   code="LA CEJA37" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA37"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA37"  siteId="MADRE" earliestPickup="02-03-2009 22:00" latestPickup="12-03-2009 17:16" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA37"  siteId="LACEJA" earliestDelivery="12-03-2009 02:17" latestDelivery="12-03-2009 17:16" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA38" description= "LA CEJA38" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA38"   code="LA CEJA38" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA38"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA38"  siteId="MADRE" earliestPickup="02-03-2009 23:15" latestPickup="12-03-2009 20:26" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA38"  siteId="LACEJA" earliestDelivery="12-03-2009 05:27" latestDelivery="12-03-2009 20:26" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA39" description= "LA CEJA39" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA39"   code="LA CEJA39" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA39"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA39"  siteId="MADRE" earliestPickup="03-03-2009 00:30" latestPickup="12-03-2009 23:36" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA39"  siteId="LACEJA" earliestDelivery="12-03-2009 08:37" latestDelivery="12-03-2009 23:36" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA40" description= "LA CEJA40" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA40"   code="LA CEJA40" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA40"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA40"  siteId="MADRE" earliestPickup="03-03-2009 01:45" latestPickup="13-03-2009 22:46" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA40"  siteId="LACEJA" earliestDelivery="13-03-2009 07:47" latestDelivery="13-03-2009 22:46" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA41" description= "LA CEJA41" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA41"   code="LA CEJA41" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA41"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA41"  siteId="MADRE" earliestPickup="03-03-2009 03:00" latestPickup="14-03-2009 01:55" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA41"  siteId="LACEJA" earliestDelivery="13-03-2009 10:57" latestDelivery="14-03-2009 01:55" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA42" description= "LA CEJA42" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA42"   code="LA CEJA42" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA42"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA42"  siteId="MADRE" earliestPickup="03-03-2009 04:15" latestPickup="14-03-2009 05:05" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA42"  siteId="LACEJA" earliestDelivery="13-03-2009 14:07" latestDelivery="14-03-2009 05:05" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA43" description= "LA CEJA43" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA43"   code="LA CEJA43" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA43"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA43"  siteId="MADRE" earliestPickup="03-03-2009 05:30" latestPickup="14-03-2009 08:15" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA43"  siteId="LACEJA" earliestDelivery="13-03-2009 17:17" latestDelivery="14-03-2009 08:15" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA44" description= "LA CEJA44" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA44"   code="LA CEJA44" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA44"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA44"  siteId="MADRE" earliestPickup="03-03-2009 06:45" latestPickup="14-03-2009 11:25" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA44"  siteId="LACEJA" earliestDelivery="13-03-2009 20:27" latestDelivery="14-03-2009 11:25" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+        <perseus:ServiceRequest serviceRequestExternId="LA CEJA45" description= "LA CEJA45" documentType="NIT" customerId="830.032.160-9">
+            <perseus:Order orderExternId="LA CEJA45"   code="LA CEJA45" originCityCode="05001" priority="-1">
+                <perseus:OrderDetail orderDetailExternId="LA CEJA45"  amount="1"  productId="MAT01" weight="1500.0" volume="1500.0"></perseus:OrderDetail>
+                <perseus:OrderPickup  orderPickupExternId="LA CEJA45"  siteId="MADRE" earliestPickup="03-03-2009 08:00" latestPickup="15-03-2009 10:35" estimatedAttentionTime="75"></perseus:OrderPickup>
+                <perseus:OrderDelivery orderDeliveryExternId="LA CEJA45"  siteId="LACEJA" earliestDelivery="14-03-2009 19:37" latestDelivery="15-03-2009 10:35" estimatedAttentionTime="10"></perseus:OrderDelivery>
+            </perseus:Order>
+        </perseus:ServiceRequest>
+    </perseus:ServiceRequests>
+</perseus:ImportData>
