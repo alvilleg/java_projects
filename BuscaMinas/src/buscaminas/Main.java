@@ -22,7 +22,7 @@ public class Main extends JFrame{
     public Main(){
         PanelMinas panelMinas = new PanelMinas();        
         this.getContentPane().add(panelMinas);
-        setSize(new Dimension(750,750));
+        setSize(new Dimension(500,500));
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {

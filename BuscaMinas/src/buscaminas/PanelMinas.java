@@ -27,7 +27,8 @@ import javax.swing.JTextField;
 public class PanelMinas extends JPanel implements MouseListener, ActionListener {
     JTextField textField;
     BotonMina botonMinas[][];
-    int N = 16;
+    int N = 10;
+    int MINES = 20;
     boolean juegoTerminado = false;
     JButton nuevoJuego = new JButton("Nuevo Juego");
     JLabel findMinesCounterLabel;
@@ -93,7 +94,7 @@ public class PanelMinas extends JPanel implements MouseListener, ActionListener 
         /// Se minan los botones
         {
             int cuantosMinados = 0;
-            while (cuantosMinados < 40) {
+            while (cuantosMinados < MINES) {
                 int columnaAleatoria = (int) (Math.random() * N);
                 int filaAleatoria = (int) (Math.random() * N);
                 if (!botonMinas[filaAleatoria][columnaAleatoria].tieneMina()) {
@@ -126,6 +127,7 @@ public class PanelMinas extends JPanel implements MouseListener, ActionListener 
 
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == nuevoJuego) {
+            //N = Integer.parseInt(textField.getText());
             System.out.println();
             init();
             updateUI();
