@@ -46,6 +46,14 @@ public class CannibalNode implements Explorable {
         return childs;
     }
 
+    @Override public boolean isBetter(Explorable other) {
+        return false;
+    }
+
+    @Override public Object getValue() {
+        return null;
+    }
+
     private void buildCannibalNodesTargetSide(List<Explorable> childs) {
 
         // Returns a person

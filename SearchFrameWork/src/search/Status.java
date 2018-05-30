@@ -11,4 +11,5 @@ public interface Status {
     boolean isValid();
 
     String getKey();
+
 }
